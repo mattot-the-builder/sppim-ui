@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-  background-image: url("./assets/bgraster.jpg");
+  background-image: url("./assets/bgraster-body.jpg");
   background-size: 80%;
 }
