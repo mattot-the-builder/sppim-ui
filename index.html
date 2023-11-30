@@ -7,7 +7,21 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="flex flex-row h-screen">
+
+      <div class="flex flex-col w-64 bg-white border-r">
+        Left Sidebar
+      </div>
+
+      <div class="flex flex-col flex-1">
+        <div class="flex justify-between p-4 bg-white border-b h-12">
+          Top Navbar
+        </div>
+        <div class="flex flex-col flex-1 p-4">
+          Main Section
+        </div>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
